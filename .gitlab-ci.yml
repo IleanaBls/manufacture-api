@@ -10,7 +10,7 @@ tests:
     - npm ci
     - npm test
 
-image:
+build-image:
   stage: build
   image: docker:29-cli
   tags: [vm]
